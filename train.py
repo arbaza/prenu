@@ -1,7 +1,7 @@
 import pickle
 from model import *
 from utils import *
-from config import config, log_config
+#from config import config, log_config
 from scipy.io import loadmat, savemat
 import tensorlayer as tl
 import imageio
