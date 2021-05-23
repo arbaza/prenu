@@ -23,7 +23,7 @@ config.TRAIN.epsilon = 0.000001
 
 
 config.TRAIN.VGG16_path = os.path.join('trained_model', 'VGG16', 'vgg16_weights.npz')
-config.TRAIN.training_data_path = os.path.join('../../input/pickles/training.pickles')
+config.TRAIN.training_data_path = os.path.join('../../../input/pickles/testing.pickle')
 config.TRAIN.val_data_path = os.path.join('data', 'MICCAI13_SegChallenge', 'validation.pickle')
 config.TRAIN.testing_data_path = os.path.join('data', 'MICCAI13_SegChallenge', 'testing.pickle')
 config.TRAIN.mask_Gaussian1D_path = os.path.join('mask', 'Gaussian1D')
