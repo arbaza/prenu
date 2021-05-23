@@ -26,9 +26,9 @@ config.TRAIN.VGG16_path = os.path.join('trained_model', 'VGG16', 'vgg16_weights.
 config.TRAIN.training_data_path = os.path.join('../../input/pickles/', 'testing.pickle')
 config.TRAIN.val_data_path = os.path.join('../../input/pickles/', 'validation.pickle')
 config.TRAIN.testing_data_path = os.path.join('../../input/pickles/', 'testing.pickle')
-config.TRAIN.mask_Gaussian1D_path = os.path.join('mask', 'Gaussian1D')
-config.TRAIN.mask_Gaussian2D_path = os.path.join('mask', 'Gaussian2D')
-config.TRAIN.mask_Poisson2D_path = os.path.join('mask', 'Poisson2D')
+config.TRAIN.mask_Gaussian1D_path = os.path.join('../../input/maskkk', 'Gaussian1D')
+config.TRAIN.mask_Gaussian2D_path = os.path.join('../../input/maskkk', 'Gaussian2D')
+config.TRAIN.mask_Poisson2D_path = os.path.join('../../input/maskkk', 'Poisson2D')
 
 def log_config(filename, cfg):
     with open(filename, 'w') as f:
