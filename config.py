@@ -22,7 +22,7 @@ config.TRAIN.seed = 100
 config.TRAIN.epsilon = 0.000001
 
 
-config.TRAIN.VGG16_path = os.path.join('trained_model', 'VGG16', 'vgg16_weights.npz')
+config.TRAIN.VGG16_path = os.path.join('../../input/vgg16p/', 'VGG16', 'vgg16_weights.npz')
 config.TRAIN.training_data_path = os.path.join('../../input/pickles/', 'testing.pickle')
 config.TRAIN.val_data_path = os.path.join('../../input/pickles/', 'validation.pickle')
 config.TRAIN.testing_data_path = os.path.join('../../input/pickles/', 'testing.pickle')
